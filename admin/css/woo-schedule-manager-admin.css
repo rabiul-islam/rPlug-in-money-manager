@@ -1,0 +1,184 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+
+ .hide_type{
+    visibility: hidden;
+ }
+ .display_type{
+    visibility: visible;
+ }
+.schedule_time_admin table{
+	position: relative; 
+    margin-right: 30px;
+     
+}
+
+.schedule_time_admin table th{
+	 font-weight: bold; 
+} 
+.schedule_time_admin table h2{
+	display: inline-block;
+ }
+.alert_msg_arrow { 
+	background: #d51744;
+	border: 2px solid #c2e1f5;
+	position: absolute;
+	right: -142px;
+	width: 101px;
+	color: #fff !important;
+	padding: 5px 14px;
+	text-transform: lowercase;
+	margin-top: -49px !important;
+	z-index: 1;
+}
+.alert_msg_arrow:after, .alert_msg_arrow:before {
+	right: 100%;
+	top: 50%;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.alert_msg_arrow:after {
+	border-color: rgba(213, 23, 68, 0);
+	border-right-color: #d51744;
+	border-width: 10px;
+	margin-top: -10px;
+}
+.alert_msg_arrow:before {
+	border-color: rgba(194, 225, 245, 0);
+	border-right-color: #c2e1f5;
+	border-width: 13px;
+	margin-top: -13px;
+}
+
+
+
+/*-------------closed---*/
+.closed_submit_warpper{
+	float: left;
+	margin-top: 24px;
+	width: 100%;
+	text-align: left;
+	position: relative;
+}
+
+.closed_wrapper {
+    width: 92%;
+    border: 1px solid #bdb8b8;
+    float: left;
+    margin-top: 30px;
+    position: relative;
+    padding: 30px;
+}
+.date_input input{
+	float: left;
+}
+.repeater-add-btn{
+	float: right;
+    margin-top: -5px;
+    position: absolute;
+    right: 44px;
+        width: 84px;
+        background: #17a2b8 !important;
+        border: 1px solid #17a2b8;
+}
+.clearfix{
+	clear: both;
+}
+
+.schedule_items {
+    width: 100%;
+    float: left;
+    margin-bottom: 8px;
+}
+
+.repeater-remove-btn button{
+	padding: 4px; 
+ 
+}
+.sunday_closed_wrapper {
+    float: left;
+    width: 100%;
+    margin-top: 22px;
+}
+
+
+
+/*front-end css-------------------------------*/
+
+#schedule_day{
+background: #32828c;
+    color: #fff;
+    padding: 13px;
+    font-size: 15px;
+    width: 47%;
+}
+#time_nxtday {
+       background: #32828c;
+    color: #fff;
+    padding: 13px;
+    font-size: 15px;
+    width: 45%;
+    margin-left: 30px;
+}
+
+.checkout-radio-field .input-radio:checked + .radio:before {
+    background-color: #0F4646;
+}
+.checkout-radio-field .radio:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 30px;
+    width: 30px;
+    background-color: #C4C4C4;
+    border-radius: 50%;
+}
+.schedule_date_time label{
+	display: inline-block !important;
+	cursor: pointer;
+ }
+
+ /*option*/
+ .schedule_date_time{
+ 	margin-bottom: 40px;
+ }
+
+ .schedule_date_time select {
+ 
+ 	background:#2d6067; 
+    text-indent: 10px;
+    border: none;
+
+ }
+  .schedule_date_time select:focus-visible {
+  border: none !important;
+  }
+  .schedule_date_time select option { 
+  
+ 	background:#0F4646;
+ 	 -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+    border:1px solid #fff;
+    font-size: 16px; 
+  
+ }
+
+   .schedule_date_time select option:hover { 
+  
+ 	background:#0a1f1f;
+  
+ }
+ .schedule_date_time option:checked {
+ 	background:#0a1f1f;
+ 	padding:20px; 
+ }
+ 
